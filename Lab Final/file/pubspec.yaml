@@ -1,0 +1,60 @@
+name: skillverse_pro
+description: A Premium Quiz Learning App
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  provider: ^6.1.5
+
+  # Supabase
+  supabase_flutter: ^2.9.1
+
+  # Fonts
+  google_fonts: ^6.3.0
+
+  # Animations
+  flutter_animate: ^4.5.2
+
+  # UI
+  glassmorphism: ^3.0.0
+  percent_indicator: ^4.2.5
+
+  # Effects
+  confetti: ^0.8.0
+  audioplayers: ^6.7.0
+
+  # Utilities
+  intl: ^0.20.2
+  shared_preferences: ^2.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/icons/challenge_icon
+    - assets/animations/
+    - assets/animations/confetti.json
+    - assets/animations/loading.json
+    - assets/animations/streak_fire.json
+    - assets/animations/success.json
+    - assets/animations/trophy.json
+    - assets/sounds/
+    - 
